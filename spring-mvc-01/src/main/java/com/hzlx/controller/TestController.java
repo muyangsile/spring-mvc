@@ -23,4 +23,10 @@ public class TestController {
     public String test(){
         return "Hello SpringMVC";
     }
+
+
+    @RequestMapping("/home")
+    public String home(){
+        return "system/home";
+    }
 }
