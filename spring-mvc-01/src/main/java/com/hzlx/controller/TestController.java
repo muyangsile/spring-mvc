@@ -29,4 +29,8 @@ public class TestController {
     public String home(){
         return "system/home";
     }
+    @RequestMapping("/homePage")
+    public String homePage(){
+        return "system/homepage";
+    }
 }

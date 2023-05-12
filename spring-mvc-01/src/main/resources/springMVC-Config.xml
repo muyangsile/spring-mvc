@@ -21,7 +21,6 @@
     <!--  手动配置 springmvc中的 处理器适配器  -->
     <!--    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"/>-->
 
-
     <!--  配置视图解析器  -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <!--  配置前缀  -->
